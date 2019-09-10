@@ -16,4 +16,8 @@ forge 'https://forge.puppet.com'
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  branch: 'docs_experiment'
 
-mod 'puppetlabs/nginx', '99.99.99'
+#mod 'puppetlabs/nginx', '99.99.99'
+
+mod 'nginx', local: true
+mod 'php-fpm', local: true
+mod 'mysql', local: true
