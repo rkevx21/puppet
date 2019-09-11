@@ -1,5 +1,6 @@
 node puppet.agent.local {
-	include mysql
-	include php
-	include nginx
+	include role::web
+#	include mysql
+#	include php
+#	include nginx
 }
