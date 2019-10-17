@@ -1,6 +1,6 @@
 # Puppet r10k
 
- A code management tool known that helps in managing environment configurations related to different kind of environments that we can configure in Puppet such as development, testing, and production. This helps in storing environment-related configuration in the source code repository. Using the source control repo branches, r10k creates environments on Puppet master machine installs and updates environment using modules present in the repo.
+ A code management tool known that helps in managing environment configurations related to different kind of environments that we can configure in Puppet such as development, testing, and production. This helps in storing environment-related configuration in the source code repository. Using the source control repo branches, r10k creates (install and update) environments on Puppet Server machine using modules present in local / repository.
 
 ## Installation
 
